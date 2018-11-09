@@ -4,7 +4,7 @@
 dingtalk_robot(
 access_token: #{access_token},
 title: 'title',
-content: ‘##### title，[link](https://www.google.com)',
+markdown: ‘##### title，[link](https://www.google.com)',
 at_mobiles: ['phone-num']
 )
 
