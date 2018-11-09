@@ -1,0 +1,15 @@
+
+=begin
+
+dingtalk_robot(
+access_token: #{access_token},
+title: 'title',
+content: ‘##### title，[link](https://www.google.com)',
+at_mobiles: ['phone-num']
+)
+
+=end
+
+lane :test do
+  dingtalk_robot
+end
